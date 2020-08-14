@@ -10,7 +10,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e6b70d2-bcb7-49fb-8011-8cc45348e665" name="Default Changelist" comment="" />
+    <list default="true" id="1e6b70d2-bcb7-49fb-8011-8cc45348e665" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/author_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/author_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/recipe_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/recipe_detail.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,6 +36,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -41,6 +46,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunManager">
     <configuration name="recipebox" type="Python.DjangoServer" factoryName="Django server">
@@ -79,8 +85,16 @@
       <updated>1597413533635</updated>
       <workItem from="1597413540835" duration="1803000" />
       <workItem from="1597425554495" duration="1190000" />
-      <workItem from="1597427400320" duration="491000" />
+      <workItem from="1597427400320" duration="4329000" />
     </task>
+    <task id="LOCAL-00001" summary="V1 and Forms update">
+      <created>1597427929850</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1597427929850</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -97,5 +111,15 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="V1 and Forms update" />
+    <option name="LAST_COMMIT_MESSAGE" value="V1 and Forms update" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="430" y="182" key="Vcs.Push.Dialog.v2" timestamp="1597427942963">
+      <screen x="0" y="23" width="1440" height="835" />
+    </state>
+    <state x="430" y="182" key="Vcs.Push.Dialog.v2/0.23.1440.835@0.23.1440.835" timestamp="1597427942963" />
   </component>
 </project>
