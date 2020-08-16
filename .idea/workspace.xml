@@ -10,7 +10,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e6b70d2-bcb7-49fb-8011-8cc45348e665" name="Default Changelist" comment="" />
+    <list default="true" id="1e6b70d2-bcb7-49fb-8011-8cc45348e665" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/recipebox.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/recipebox.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/author_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/author_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/generic_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/generic_form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/recipe_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/recipe_detail.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
