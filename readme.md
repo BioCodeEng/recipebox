@@ -1,4 +1,5 @@
 Author: Ally Engle
+
 Sources used (so far) for assistance and understanding:
 1. Recipebox 3: Auth Demo
 2. Django Web Development with Python Introduction (https://pythonprogramming.net/django-web-development-python-tutorial/)
