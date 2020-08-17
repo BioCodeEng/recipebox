@@ -1,11 +1,11 @@
 Author: Ally Engle
 
 Sources used (so far) for assistance and understanding:
-1. Recipebox 3: Auth Demo
+1. Kenzie Recipebox 3: Auth Demo by Joe
 2. Django Web Development with Python Introduction (https://pythonprogramming.net/django-web-development-python-tutorial/)
 3. LinkedIn Learning: Become a Django Developer Learning Path(https://www.linkedin.com/learning/paths/become-a-django-developer)
 
-Django Auth Demo Notes
+Kenzie Django Auth Demo Notes
 - [ ] 4:00 from Django.contrib.auth import login, logout, authenticate
 - [ ] 5:00 from django.contrib.auth.models import User
 - [ ] 5:45 User.objects.all()
