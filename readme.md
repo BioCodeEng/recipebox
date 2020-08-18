@@ -1,7 +1,8 @@
 Author: Ally Engle
 
-Sources used (so far) for assistance and understanding:
+Sources used (so far) for assistance and understanding(links included):
 1. Kenzie Recipebox V.1, Forms, and Auth Demo by Joe!
+
 Also:
 2. Django Web Development with Python Introduction (https://pythonprogramming.net/django-web-development-python-tutorial/)
 3. LinkedIn Learning: Become a Django Developer Learning Path(https://www.linkedin.com/learning/paths/become-a-django-developer)
