@@ -1,6 +1,6 @@
 Author: Ally Engle
 
-IMPORTANT: Aa I already have in insights/traffic 16 unique cloners and 33 clones to date from Friday, August 14 to today (Tuesday, August 19),and I will update this number with date, if required, without my express permission, do not clone this repo unless you are actually physically me in my body, Allyson Engle, or one of the SE 9 Kenzie grading staff which is Joe, Matt or Peter. Anyone else cloning this or any of my future Q4 repos at this point, without my permission, is violating my privacy and possibly breaking the Academic Interference part of the Academic Integrity Policy, which is more serious than plagiarism.
+IMPORTANT: Aa I already have in insights/traffic 17 unique cloners and 36 clones to date from Friday, August 14 to today (Tuesday, August 19),and I will update this number with date, if required, without my express permission, do not clone this repo unless you are actually physically me in my body, Allyson Engle, or one of the SE 9 Kenzie grading staff which is Joe, Matt or Peter. Anyone else cloning this or any of my future Q4 repos at this point, without my permission, is violating my privacy and possibly breaking the Academic Interference part of the Academic Integrity Policy, which is more serious than plagiarism.
 
 Sources used (so far) for assistance and understanding(links included):
 1. Kenzie Recipebox V.1, Forms, and Auth Demo by Joe!
