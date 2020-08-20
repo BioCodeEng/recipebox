@@ -7,13 +7,26 @@
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:auth" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e6b70d2-bcb7-49fb-8011-8cc45348e665" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/recipebox.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/recipebox.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/author_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/author_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/recipe_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/recipe_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe_app/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/recipe_app/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe_app/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/recipe_app/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe_app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/recipe_app/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/recipe_app/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipebox/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/recipebox/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipebox/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/recipebox/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,17 +36,28 @@
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1g5nt8n0Fif3tnhXyaZiRN5tmAa" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
@@ -86,6 +110,13 @@
       <workItem from="1597413540835" duration="1803000" />
       <workItem from="1597425554495" duration="1190000" />
       <workItem from="1597427400320" duration="4329000" />
+      <workItem from="1597677554011" duration="973000" />
+      <workItem from="1597684921538" duration="1541000" />
+      <workItem from="1597759149877" duration="210000" />
+      <workItem from="1597844606965" duration="8000" />
+      <workItem from="1597844663067" duration="282000" />
+      <workItem from="1597849607911" duration="175000" />
+      <workItem from="1597851152687" duration="13768000" />
     </task>
     <task id="LOCAL-00001" summary="V1 and Forms update">
       <created>1597427929850</created>
@@ -105,7 +136,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="auth" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -113,10 +156,15 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="V1 and Forms update" />
     <option name="LAST_COMMIT_MESSAGE" value="V1 and Forms update" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="788" y="194" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1597888333223">
+      <screen x="0" y="23" width="1440" height="835" />
+    </state>
+    <state x="788" y="194" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.835@0.23.1440.835" timestamp="1597888333223" />
     <state x="430" y="182" key="Vcs.Push.Dialog.v2" timestamp="1597427942963">
       <screen x="0" y="23" width="1440" height="835" />
     </state>
