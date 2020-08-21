@@ -1,12 +1,10 @@
 # recipebox
 Author: Ally Engle
 
-IMPORTANT NOTE: Use python3 manage.py <insert command.. My computer seems to be particular about using python3 for everything related to python 3.x.x.
+IMPORTANT NOTE: I use "python3 manage.py ." My computer seems to be particular about using python3 for everything related to python 3.x.x and running django. Sources used (so far) for assistance and understanding(links included):
 
-Sources used (so far) for assistance and understanding(links included):
-
-Kenzie Recipebox V.1, Forms, and Auth Demo by Joe!
-Also:
+Kenzie Recipebox V.1, Forms, and Auth Demo by Joe! The main one since he basically walked through it, only this one is about recipes and we had to do a recipe_detail instead of author_detail. Only difference.
+Also helpful sources in expanding upon my understanding and learning:
 
 Django Web Development with Python Introduction (https://pythonprogramming.net/django-web-development-python-tutorial/)
 LinkedIn Learning: Become a Django Developer Learning Path(https://www.linkedin.com/learning/paths/become-a-django-developer)
