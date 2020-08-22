@@ -4,7 +4,7 @@ Note the repo name change to try to deter the clone of my repo: 20 unique clones
 
 IMPORTANT NOTE: I use "python3 manage.py <insert command>." My computer seems to be particular about using python3 for everything related to python 3.x.x and running django.
 Sources used (so far) for assistance and understanding(links included):
-1. Kenzie Recipebox V.1, Forms, and Auth Demo by Joe! The main one since he basically walked through it, only this one is about recipes and we had to do a recipe_detail instead of author_detail. Only difference.
+1. Kenzie Recipebox V.1, Forms, and Auth Demo by Joe! The main one since he basically walked through it, only this one is about recipes and we had to do a recipe_detail instead of article_detail. Only difference.
   [Auth]Recipebox part 3: Auth demo by Joe: This was walked through beginning to end wll cite every part that was from that demo with [Auth] 
 
 
