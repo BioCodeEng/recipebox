@@ -17,7 +17,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e6b70d2-bcb7-49fb-8011-8cc45348e665" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe_app/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/recipe_app/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe_app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/recipe_app/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/recipe_app/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipebox/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/recipebox/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipebox/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/recipebox/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/author_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/author_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/generic_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/generic_form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/recipe_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/recipe_detail.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +118,7 @@
       <workItem from="1597844663067" duration="282000" />
       <workItem from="1597849607911" duration="175000" />
       <workItem from="1597851152687" duration="14686000" />
-      <workItem from="1598109515988" duration="1926000" />
+      <workItem from="1598109515988" duration="3705000" />
     </task>
     <task id="LOCAL-00001" summary="V1 and Forms update">
       <created>1597427929850</created>
@@ -131,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598111775590</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update README.md">
+      <created>1598112078745</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1598112078745</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,6 +160,11 @@
         <entry key="MAIN">
           <value>
             <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
               <option name="FILTERS">
                 <map>
                   <entry key="branch">
@@ -166,7 +188,8 @@
     <MESSAGE value="V1 and Forms update" />
     <MESSAGE value="Finished authentication" />
     <MESSAGE value="added full Auth citations" />
-    <option name="LAST_COMMIT_MESSAGE" value="added full Auth citations" />
+    <MESSAGE value="update README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="update README.md" />
   </component>
   <component name="WindowStateProjectService">
     <state x="788" y="194" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1597888333223">

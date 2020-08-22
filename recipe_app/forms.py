@@ -1,7 +1,7 @@
 from django import forms
 from recipe_app.models import Recipe, Author
 
-
+#[V1/2]AddRecipeForm & AddAuthorForm
 class AddRecipeForm(forms.Form):
     title = forms.CharField(max_length=50)
     author = forms.ModelChoiceField(queryset=Author.objects.all())

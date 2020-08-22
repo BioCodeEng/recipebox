@@ -7,7 +7,6 @@ Sources used (so far) for assistance and understanding(links included):
 1. Kenzie Recipebox V.1, Forms, and Auth Demo by Joe! The main one since he basically walked through it, only this one is about recipes and we had to do a recipe_detail instead of article_detail. Only difference.
   [Auth]Recipebox part 3: Auth demo by Joe: This was walked through beginning to end wll cite every part that was from that demo with [Auth] 
 
-
 Supplemental sources in expanding upon my understanding and learning:
 
 2. Django Web Development with Python Introduction (https://pythonprogramming.net/django-web-development-python-tutorial/)

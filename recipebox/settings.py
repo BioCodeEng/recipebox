@@ -121,5 +121,5 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-##[Auth] added added login_url to static files
+#[Auth] added added login_url to static files
 LOGIN_URL = "/login/"

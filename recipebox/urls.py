@@ -19,6 +19,7 @@ from django.urls import path
 #[Auth] imported login, logout, and signup views to import to urlpatterns
 from recipe_app.views import index, recipe_detail, author_detail, addrecipe_view, addauthor_view, login_view, logout_view, signup_view
 
+##[V1/2] added index, recipe_detail, author_detail, addrecipe, addauthor url patterns
 #[Auth] added signup, login, logout url patterns
 urlpatterns = [
     path('', index, name="homepage"),

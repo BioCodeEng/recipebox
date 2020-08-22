@@ -1,9 +1,11 @@
+#[V1/2]import models as part of setup
 from django.db import models
 #[Auth] imported User to implement OneToOneField
 from django.contrib.auth.models import User
 
 # Create your models here.
-#[Auth] added login form
+#[V1/2] Added Author & Recipe Models
+#[Auth] added User field in Author Model to implement Author OneToOne functionality
 class Author(models.Model):
     name = models.CharField(max_length=80)
     bio = models.TextField(max_length=80)

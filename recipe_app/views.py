@@ -1,14 +1,15 @@
+#[V1/2] importing render, HttpResponseRedirect, reverse
 #[Auth] imported login, logout, auth, login_required, User, LoginForm, SignForm
 from django.shortcuts import render, HttpResponseRedirect, reverse
 from django.contrib.auth import login, logout, authenticate
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth.models import User
 
+#[V1/2] importing recipe, author, AddRecipeForm, AddAuthorForm
 #[Auth] added LoginForm, SignForm
 from recipe_app.models import Recipe, Author
 from recipe_app.forms import AddRecipeForm, AddAuthorForm, LoginForm, SignupForm
 # Create your views here.
-
 
 def index(request):
     data = Recipe.objects.all()
