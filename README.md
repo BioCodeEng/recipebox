@@ -7,7 +7,9 @@ Sources used (so far) for assistance and understanding(links included):
 1. Kenzie Recipebox V.1, Forms, and Auth Demo by Joe! The main one since he basically walked through it, only this one is about recipes and we had to do a recipe_detail instead of article_detail. Only difference.
   
   Citation notes:
+  
   [V1/2]Citations for code blocks done for V.1 and the part 2: Forms Assessment.
+  
   [Auth]Recipebox part 3: Auth demo by Joe: This was walked through beginning to end wll cite every part that was from that demo with [Auth] 
 
 Supplemental sources in expanding upon my understanding and learning:
