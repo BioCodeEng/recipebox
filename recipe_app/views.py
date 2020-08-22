@@ -1,8 +1,10 @@
+#[Auth] imported login, logout, auth, login_required, User, LoginForm, SignForm
 from django.shortcuts import render, HttpResponseRedirect, reverse
 from django.contrib.auth import login, logout, authenticate
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth.models import User
 
+#[Auth] added LoginForm, SignForm
 from recipe_app.models import Recipe, Author
 from recipe_app.forms import AddRecipeForm, AddAuthorForm, LoginForm, SignupForm
 # Create your views here.
@@ -24,6 +26,7 @@ def author_detail(request, author_id):
     return render(request, "author_detail.html",
                   {"author": author, "data": data})
 
+#[Auth] added login_required decorator
 @login_required
 def addrecipe_view(request):
     if request.method == "POST":
@@ -42,6 +45,7 @@ def addrecipe_view(request):
     form = AddRecipeForm()
     return render(request, "generic_form.html", {"form": form})
 
+#[Auth] added login_required decorator
 @login_required
 def addauthor_view(request):
     if request.method == "POST":
@@ -52,6 +56,7 @@ def addauthor_view(request):
     form = AddAuthorForm()
     return render(request, "generic_form.html", {"form": form})
 
+#[Auth] added signup_view
 def signup_view(request):
     if request.method == "POST":
         form = SignupForm(request.POST)
@@ -64,6 +69,7 @@ def signup_view(request):
     form = SignupForm()
     return render(request, "generic_form.html", {"form": form})
 
+#[Auth] added login_view
 def login_view(request):
     if request.method == "POST":
         form = LoginForm(request.POST)
@@ -78,6 +84,7 @@ def login_view(request):
     form = LoginForm()
     return render(request, "generic_form.html", {"form": form})
 
+#[Auth] added logout_view
 def logout_view(request):
     logout(request)
     return HttpResponseRedirect(reverse("homepage"))

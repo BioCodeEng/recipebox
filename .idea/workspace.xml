@@ -17,11 +17,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e6b70d2-bcb7-49fb-8011-8cc45348e665" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/recipebox.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/recipebox.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/recipe_app/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/recipe_app/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recipe_app/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/recipe_app/migrations/0001_initial.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/recipe_app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/recipe_app/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/recipe_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/recipe_app/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/recipebox/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/recipebox/settings.py" afterDir="false" />
@@ -116,7 +113,8 @@
       <workItem from="1597844606965" duration="8000" />
       <workItem from="1597844663067" duration="282000" />
       <workItem from="1597849607911" duration="175000" />
-      <workItem from="1597851152687" duration="13768000" />
+      <workItem from="1597851152687" duration="14686000" />
+      <workItem from="1598109515988" duration="1612000" />
     </task>
     <task id="LOCAL-00001" summary="V1 and Forms update">
       <created>1597427929850</created>
@@ -125,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597427929850</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Finished authentication">
+      <created>1597891119978</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1597891119978</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,7 +163,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="V1 and Forms update" />
-    <option name="LAST_COMMIT_MESSAGE" value="V1 and Forms update" />
+    <MESSAGE value="Finished authentication" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished authentication" />
   </component>
   <component name="WindowStateProjectService">
     <state x="788" y="194" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1597888333223">

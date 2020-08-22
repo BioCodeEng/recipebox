@@ -16,8 +16,10 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
+#[Auth] imported login, logout, and signup views to import to urlpatterns
 from recipe_app.views import index, recipe_detail, author_detail, addrecipe_view, addauthor_view, login_view, logout_view, signup_view
 
+#[Auth] added signup, login, logout url patterns
 urlpatterns = [
     path('', index, name="homepage"),
     path('recipe/<int:recipe_id>/', recipe_detail),

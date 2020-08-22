@@ -1,7 +1,9 @@
 from django.db import models
+#[Auth] imported User to implement OneToOneField
 from django.contrib.auth.models import User
 
 # Create your models here.
+#[Auth] added login form
 class Author(models.Model):
     name = models.CharField(max_length=80)
     bio = models.TextField(max_length=80)

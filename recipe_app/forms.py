@@ -14,10 +14,12 @@ class AddAuthorForm(forms.ModelForm):
         model = Author
         fields = ["name", "bio"]
 
+#[Auth] added login form
 class LoginForm(forms.Form):
     username = forms.CharField(max_length=240)
     password = forms.CharField(widget=forms.PasswordInput)
 
+#[Auth] added signup form
 class SignupForm(forms.Form):
     username = forms.CharField(max_length=240)
     password = forms.CharField(widget=forms.PasswordInput)
