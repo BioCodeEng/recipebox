@@ -1,4 +1,5 @@
 Author: Ally Engle
+Note the repo name change to try to deter the clone of my repo: 20 unique clones and 44 clones to date since last friday. Last night, Friday, August 21st, 7 uniques and 7 clones within an 1-1/2 of making it public again!
 
 IMPORTANT NOTE: I use "python3 manage.py <insert command>." My computer seems to be particular about using python3 for everything related to python 3.x.x and running django.
 Sources used (so far) for assistance and understanding(links included):
