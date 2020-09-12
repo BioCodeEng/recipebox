@@ -4,6 +4,7 @@ from django.shortcuts import render, HttpResponseRedirect, reverse
 from django.contrib.auth import login, logout, authenticate
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth.models import User
+from django.http import HttpResponseForbidden
 
 #[V1/2] importing recipe, author, AddRecipeForm, AddAuthorForm
 #[Auth] added LoginForm, SignForm
@@ -24,8 +25,9 @@ def recipe_detail(request, recipe_id):
 def author_detail(request, author_id):
     author = Author.objects.get(id=author_id)
     data = Recipe.objects.filter(author=author)
+    favorite_recipe = author.favorites.all()
     return render(request, "author_detail.html",
-                  {"author": author, "data": data})
+                  {"author": author, "data": data, 'favorites': favorite_recipe})
 
 #[Auth] added login_required decorator
 @login_required
@@ -46,6 +48,36 @@ def addrecipe_view(request):
     form = AddRecipeForm()
     return render(request, "generic_form.html", {"form": form})
 
+
+@login_required
+def editrecipe_view(request, recipe_id):
+    recipe = Recipe.objects.get(id=recipe_id)
+    if request.user.author.id == recipe.author.id or request.user.is_staff:
+        data = {
+            'title': recipe.title,
+            'author': recipe.author,
+            'description': recipe.description,
+            'time_required': recipe.time_required,
+            'instructions': recipe.instructions,
+        }
+        if request.method == 'POST':
+            form = AddRecipeForm(request.POST, initial=data)
+            if form.is_valid():
+                data=form.cleaned_data
+                recipe.title = data['title']
+                recipe.author = data['author']
+                recipe.description = data['description']
+                recipe.time_required = data['time_required']
+                recipe.instructions = data['instructions']
+                recipe.save()
+            return HttpResponseRedirect(reverse('recipe_detail', args=[recipe.id]))
+    
+        form = AddRecipeForm(initial=data)
+        return render(request, 'generic_form.html', {'form': form})
+
+    return HttpResponseForbidden("You are not authorized to access this page!")
+
+
 #[Auth] added login_required decorator
 @login_required
 def addauthor_view(request):
@@ -56,6 +88,16 @@ def addauthor_view(request):
 
     form = AddAuthorForm()
     return render(request, "generic_form.html", {"form": form})
+
+
+@login_required
+def favorites_view(request, favorites_id):
+    current_user = request.user
+    favorite = Recipe.objects.filter(id=favorites_id).first()
+    current_user.author.favorites.add(favorite)
+    
+    return HttpResponseRedirect(request.META.get('favorites', '/'))
+
 
 #[Auth] added signup_view
 def signup_view(request):
