@@ -7,6 +7,11 @@
         {{recipe.time_required}}<br/>
         {{recipe.instructions}}
     </li>
-   
+   {% if user.author.id == recipe.author.id or request.user.is_staff  %}
+        <a href="/recipe/{{recipe.id}}/edit/"><button>Edit Recipe</button></a>
+    {% endif %}
+    {% if user.author.id == recipe.author.id or request.user.is_staff  %}
+        <a href="/recipe/{{recipe.id}}/favorites/"><button>Add To Favorites</button></a>
+    {% endif %}
 </ul> 
 <a href="/">Home</a>

@@ -17,16 +17,18 @@ from django.contrib import admin
 from django.urls import path
 
 #[Auth] imported login, logout, and signup views to import to urlpatterns
-from recipe_app.views import index, recipe_detail, author_detail, addrecipe_view, addauthor_view, login_view, logout_view, signup_view
+from recipe_app.views import index, recipe_detail, author_detail, addrecipe_view, addauthor_view, login_view, logout_view, signup_view, editrecipe_view, favorites_view
 
 ##[V1/2] added index, recipe_detail, author_detail, addrecipe, addauthor url patterns
 #[Auth] added signup, login, logout url patterns
 urlpatterns = [
     path('', index, name="homepage"),
-    path('recipe/<int:recipe_id>/', recipe_detail),
+    path('recipe/<int:recipe_id>/', recipe_detail, name='recipe_detail'),
     path('author/<int:author_id>/', author_detail),
     path('addrecipe/', addrecipe_view),
     path('addauthor/', addauthor_view),
+    path('recipe/<int:recipe_id>/edit/', editrecipe_view),
+    path('favorites/<int:favorites_id>/', favorites_view, name="favorites"),
     path('signup/', signup_view),
     path('login/', login_view),
     path('logout/', logout_view),
